@@ -1,0 +1,60 @@
+.header {
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  width: 100%
+}
+/*.menu{
+	position: absolute;
+	top: 10px;
+}*/
+.container-fluid{
+	position: absolute;
+	top: 10px;
+}
+.menu{
+	margin-left: 50px;
+}
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid yellow;
+  color: yellow;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid yellow;
+  color: yellow;
+}
+.divconnexion{
+	padding-top: 20px;
+	text-align: left;
+}
+.connexion{
+	border-radius: 25px;
+}
+.divcontact{
+	text-align: right;
+}

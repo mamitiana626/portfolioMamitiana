@@ -1,0 +1,232 @@
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@media screen and (max-width: 1700px){
+.topheader{
+	background-color: #000;
+	color: #ffffff;
+	margin-left: -7px;
+	margin-right: -7px;
+}
+.fas{
+	margin-left: 25px;
+	margin-right: 7px;
+}
+.fab{
+	margin-left: 17px;
+	font-size: 20px;
+}
+.langue{
+	margin-bottom: 12px;
+}
+
+.topnav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mytopnav{
+  float: left;
+}
+
+.mytopnav a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.mytopnav a:hover {
+  border-bottom: 2px solid #6ecdca;
+}
+.recherche{
+	font-size: 22px;
+	margin-top: 15px;
+	color: grey;
+}
+
+.grandtitre{
+	color: #131313;
+    font-family: "Artifika", Sans-serif;
+    text-align: center;
+}
+.titre{
+	margin-top: 70px;
+	color: #131313;
+    font-family: "Artifika", Sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+.commentaire{
+	font-family: Roboto;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #505050;
+    font-size: 14px;
+    text-align: center;
+}
+
+.produit{
+	text-align: center;
+}
+.titreproduit{
+	font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 23px 0 7px 0;
+}
+.prixproduit{
+	font-size: 18px;
+    line-height: 23.4px;
+    color: #959595;
+}
+.background1{
+	background-image: url(image/collect1.png);
+}
+.background2{
+	background-image: url(image/collect2.png);
+}
+.grid{
+	padding: 179px 76px 185px 76px;
+    height: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.description p{
+	font-size: 22px;
+    font-weight: 400;
+}
+.description h4{
+	font-size: 57px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #6ECDCA;
+}
+.rdv{
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px 34px;
+    height: 45px;
+    line-height: 26px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #131313;
+    border:none;
+}
+.partenaire{
+	text-align: center;
+    opacity: 0.2;
+
+}
+.footer{
+	padding:80px;
+	color: white;
+}
+.footer p{
+	font-size: 15px;
+}
+.footer h3{
+	font-size: 15px;
+}
+.formulaire{
+	min-height: 32px;
+    width: 100%;
+    max-width: 480px;
+    color: #505050;
+    border: 1px solid #eaeaea;
+    height: 45px;
+    padding: 0 15px 0 15px;
+    font-size: 16px;
+}
+.button{
+	margin-top: 15px;
+	font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 34px;
+    height: 45px;
+    line-height: 26px;
+    border: none;
+    background-color: #6ecdca;
+}
+.copyright{
+	background-color: #000000;
+	color: #fff;
+	padding: 10px 80px 10px;
+}
+.icon{
+	display: none
+}
+}
+@media screen and (max-width: 978px){
+.topnav  {
+  	background-color: red;
+	}
+.myLinks a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.icon {
+	display: block;
+  background: black;
+  
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.myLinks a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*-----content------*/
+.col-4{width: 50%;}
+.col-6{width: 100%;}
+.col-3{width: 50%;}
+.col-2{width: 33.3%;}
+}
+@media screen and (max-width: 578px){
+.col-3{width: 100%;}
+}
